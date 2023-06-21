@@ -1,0 +1,244 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --text-color: #2e2f42;
+  --gray-background-color: #f4f4fd;
+  --primary-background-color: #fafafa;
+  --section-text-color: #434455;
+  --primary-blue-color: #4d5ae5;
+  --white-color: #ffffff;
+  --button-color: #404bbf;
+  --logo-color: #2e2f42;
+}
+
+body {
+  color: var(--section-text-color);
+  font-family: var(--primary-font);
+  background-color: var(--white-color);
+}
+
+.header-logo {
+  color: var(--primary-blue-color);
+  font-size: 18px;
+  font-family: var(--logo-font);
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--logo-color);
+}
+
+.header-list {
+  color: currentColor;
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--logo-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--button-color);
+}
+
+.header-list .link,
+.address-link {
+  text-decoration: none;
+}
+
+.header-list.list {
+  list-style: none;
+}
+
+.list-link.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--logo-color);
+}
+
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--button-color);
+}
+
+.address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--section-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--button-color);
+}
+
+.navigation {
+  font-style: normal;
+}
+
+.first-section {
+  background-color: var(--text-color);
+  color: var(--white-color);
+}
+
+.first-section-text {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.first-section-button {
+  background-color: var(--primary-blue-color);
+  line-height: 1.5;
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  font-family: var(--primary-font);
+  cursor: pointer;
+}
+
+.first-section-button:hover,
+.first-section-button:focus {
+  background-color: var(--button-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.second-title {
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-color);
+font-weight: 500;
+line-height: 1.2
+
+}
+
+.second-section-text {
+  color: var(--section-text-color);
+  line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.third-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-color);
+}
+
+.fourd {
+    background-color: var(--gray-background-color);
+}
+
+.fourd-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--logo-color);
+}
+
+.fourd-list {
+    background-color: var(--white-color);
+}
+
+.fourd-dop-title {
+  font-size: 20px;
+  line-height: 1.2;
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--logo-color);
+}
+
+.fourd-text {
+  line-height: 1.5;
+  color: var(--section-text-color);
+letter-spacing: 0.02em;
+}
+
+.section-title {
+  color: var(--primary-blue-color);
+font-family: var(--primary-font);
+  background-color: var(--gray-background-color);
+  border: 1px solid #e7e9fc;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.section-title:hover,
+.section-title:focus {
+  background-color: var(--button-color);
+  color: var(--white-color);
+}
+
+.cart-link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.portfolio-title {
+  font-size: 20px;
+  line-height: 1.2;
+font-weight: 500;
+letter-spacing: 0.02em;
+color: var(--logo-color);
+}
+
+.portfolio-pages {
+  color: var(--section-text-color);
+  line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.footer-logo {
+  color: var(--primary-blue-color);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: var(--logo-font);
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.logos {
+  color: var(--gray-background-color);
+}
+
+.page-footer {
+  background-color: var(--text-color);
+  color: var(--gray-background-color);
+}
+
+.paragraf {
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
