@@ -70,8 +70,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -102,6 +100,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+  display: block;
   padding: 24px 0;
 }
 
@@ -150,11 +149,16 @@ img {
 }
 
 .address-link {
+  display: flex;
+  gap: 40px;
+}
+
+.address-list {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--section-text-color);
-  display: flex;
-  gap: 40px;
+  padding: 24px 0;
+  display: block;
 }
 
 .address-link:hover,
@@ -165,8 +169,6 @@ img {
 .navigation {
   font-style: normal;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .first-section {
@@ -249,7 +251,6 @@ img {
 .third-section-list {
   display: flex;
   justify-content: center;
-  margin: 120px 0;
   gap: 24px;
 }
 
@@ -422,6 +423,5 @@ img {
 .paragraf {
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin: 16px 0;
   max-width: 264px;
 }
