@@ -373,8 +373,6 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--button-color-portf);
   border-top: none;
-  margin-bottom: 8px;
-  
 }
 
 .cart-link {
@@ -388,6 +386,7 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+  margin-bottom: 8px;
 }
 
 .portfolio-pages {
