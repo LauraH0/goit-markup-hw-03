@@ -60,6 +60,18 @@ img {
   margin: -1px;
 }
 
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   color: var(--primary-blue-color);
   font-size: 18px;
@@ -68,6 +80,7 @@ img {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .link {
@@ -95,8 +108,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo-color);
-  display: flex;
-  justify-content: flex-start;
 }
 
 .header-link:hover,
