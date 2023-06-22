@@ -11,12 +11,6 @@
   --logo-color: #2e2f42;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   color: var(--section-text-color);
@@ -61,7 +55,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -175,7 +168,6 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  display: block;
   min-height: 120px;
   margin: 0 auto 48px;
   max-width: 496px;
@@ -214,7 +206,6 @@ img {
 
 .second-title {
   font-size: 20px;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-color);
