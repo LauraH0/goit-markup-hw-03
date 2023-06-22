@@ -95,7 +95,6 @@ img {
   color: var(--logo-color);
 }
 
-
 .header-link {
   font-weight: 500;
   line-height: 1.5;
@@ -241,13 +240,14 @@ img {
 }
 
 .third-section {
-  margin: 120 0;
+  padding-bottom: 120px;
 }
 
 .third-section-list {
   display: flex;
   justify-content: center;
   margin: 120px 0;
+  gap: 24px;
 }
 
 .third-title {
@@ -261,7 +261,7 @@ img {
 }
 
 .third-list {
-  margin: 0 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 .fourd {
@@ -277,18 +277,19 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--logo-color);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .fourd-list {
   background-color: var(--white-color);
-  margin: 0 12px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .fourd-section-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 
 .fourd-dop-title {
@@ -297,10 +298,12 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .card-content {
-  margin: 32px 16px;
+  padding: 32px 16px;
 }
 
 .fourd-text {
@@ -308,6 +311,7 @@ img {
   color: var(--section-text-color);
   letter-spacing: 0.02em;
   margin: 0 auto;
+  text-align: center;
 }
 
 .section-title {
@@ -370,7 +374,7 @@ img {
   color: var(--gray-background-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding: 100px 0
+  padding: 100px 0;
 }
 
 .paragraf {
