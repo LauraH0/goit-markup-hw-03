@@ -9,7 +9,7 @@
   --white-color: #ffffff;
   --button-color: #404bbf;
   --logo-color: #2e2f42;
-  --button-color: #e7e9fc;
+  --button-color-portf: #e7e9fc;
 }
 
 body {
@@ -341,7 +341,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 12px 24px;
-  border: 1px solid var(--button-color);
+  border: 1px solid var(--button-color-portf);
   border-radius: 4px;
 }
 
