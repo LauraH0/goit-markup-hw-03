@@ -95,19 +95,31 @@ img {
   color: var(--logo-color);
 }
 
-.header-list {
-  color: currentColor;
-  text-decoration: none;
-  list-style: none;
-  font-style: normal;
-  line-height: 1.5;
-}
 
 .header-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo-color);
+}
+
+.header-list {
+  color: currentColor;
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  line-height: 1.5;
+  padding: 24px 0;
+}
+
+.header-link-list {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--logo-color);
+  display: flex;
+  gap: 40px;
+
 }
 
 .header-link:hover,
@@ -150,6 +162,8 @@ img {
 
 .navigation {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .first-section {
