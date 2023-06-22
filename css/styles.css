@@ -221,6 +221,7 @@ img {
   color: var(--logo-color);
   font-weight: 500;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 
 .second-section-text {
@@ -232,10 +233,11 @@ img {
 .second-section-list {
   display: flex;
   justify-content: center;
+  gap: 24px;
 }
 
 .second-list {
-  margin: 0 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .third-section {
