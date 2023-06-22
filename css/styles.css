@@ -153,6 +153,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--section-text-color);
+  display: flex;
+  gap: 40px;
 }
 
 .address-link:hover,
@@ -162,8 +164,6 @@ img {
 
 .navigation {
   font-style: normal;
-  display: flex;
-  gap: 40px;
 }
 
 .first-section {
