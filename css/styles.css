@@ -109,7 +109,6 @@ img {
   list-style: none;
   font-style: normal;
   line-height: 1.5;
-  padding: 24px 0;
 }
 
 .header-link-list {
@@ -119,6 +118,7 @@ img {
   color: var(--logo-color);
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 
 }
 
