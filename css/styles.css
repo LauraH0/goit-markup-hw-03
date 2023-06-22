@@ -360,7 +360,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   display: inline-block;
-  justify-content: flex-start;
   margin-bottom: 16px;
 }
 
@@ -379,8 +378,6 @@ img {
 .paragraf {
   letter-spacing: 0.02em;
   line-height: 1.5;
-  display: flex;
-  justify-content: flex-start;
   margin: 16px 0;
   max-width: 264px;
 }
