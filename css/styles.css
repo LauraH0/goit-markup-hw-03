@@ -168,7 +168,6 @@ img {
 .first-section {
   background-color: var(--text-color);
   color: var(--white-color);
-  display: block;
   padding: 188px 0;
 }
 
