@@ -60,17 +60,18 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-logo {
@@ -164,6 +165,8 @@ img {
 .navigation {
   font-style: normal;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .first-section {
