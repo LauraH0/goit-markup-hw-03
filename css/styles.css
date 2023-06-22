@@ -329,8 +329,9 @@ img {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  display: flex;
+  display: inline-block;
   justify-content: flex-start;
+  margin-bottom: 16px;
 }
 
 .logos {
@@ -342,7 +343,7 @@ img {
   color: var(--gray-background-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0
 }
 
 .paragraf {
