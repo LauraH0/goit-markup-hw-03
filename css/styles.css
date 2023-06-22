@@ -42,6 +42,10 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
